@@ -16,3 +16,6 @@ module Test1
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+
+Rails.configuration.action_controller.per_form_csrf_tokens = true
